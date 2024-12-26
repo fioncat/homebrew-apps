@@ -7,6 +7,8 @@ class Roxide < Formula
   head "https://github.com/fioncat/roxide.git", branch: "main"
 
   depends_on "rust" => :build
+  depends_on "openssl@3"
+  depends_on "pkg-config" => :build
 
   def install
     system "cargo", "install", *std_cargo_args
