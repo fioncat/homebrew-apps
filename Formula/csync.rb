@@ -1,4 +1,4 @@
-class Roxide < Formula
+class Csync < Formula
   desc "Share your clipboard between different devices"
   homepage "https://github.com/fioncat/csync"
   url "https://github.com/fioncat/csync/archive/refs/tags/v0.3.0.tar.gz"
