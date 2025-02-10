@@ -9,10 +9,15 @@ class Csync < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "install", *std_cargo_args
+    system "cargo", "build", "--release", "--locked"
+    bin.install "target/release/csyncd"
+    bin.install "target/release/csynctl"
+    bin.install "target/release/csync-server"
   end
 
   test do
-    system "#{bin}/csync", "--version"
+    system "#{bin}/csyncd", "--version"
+    system "#{bin}/csynctl", "--version"
+    system "#{bin}/csync-server", "--version"
   end
 end
