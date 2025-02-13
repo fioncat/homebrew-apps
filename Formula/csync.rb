@@ -1,8 +1,8 @@
 class Csync < Formula
   desc "Share your clipboard between different devices"
   homepage "https://github.com/fioncat/csync"
-  url "https://github.com/fioncat/csync/archive/refs/tags/v0.6.4.tar.gz"
-  sha256 "737523db8689f5f9714cfe7b23710588a64da0c2b30647e9ccc4fd17bd4d6d8f"
+  url "https://github.com/fioncat/csync/archive/refs/tags/v0.7.0.tar.gz"
+  sha256 "47c08583c6325548f0d51ead0670090e1b37c2814eb58e947aefaa2b4416b660"
   license "MIT"
   head "https://github.com/fioncat/csync.git", branch: "main"
 
