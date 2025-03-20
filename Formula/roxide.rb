@@ -6,12 +6,10 @@ class Roxide < Formula
   license "MIT"
   head "https://github.com/fioncat/roxide.git", branch: "main"
 
-  depends_on "rust" => :build
-  depends_on "openssl@3"
-  depends_on "pkg-config" => :build
+  depends_on "go" => :build
 
   def install
-    system "cargo", "install", *std_cargo_args
+    system "make"
   end
 
   test do
