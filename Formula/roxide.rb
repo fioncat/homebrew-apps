@@ -10,6 +10,7 @@ class Roxide < Formula
 
   def install
     system "make"
+    bin.install "bin/roxide"
   end
 
   test do
