@@ -1,4 +1,4 @@
-class Fwd < Formula
+class Filewarden < Formula
   desc "Password-based symmetric encryption of files"
   homepage "https://github.com/fioncat/filewarden"
   url "https://github.com/fioncat/filewarden/archive/refs/tags/v0.1.0.tar.gz"
