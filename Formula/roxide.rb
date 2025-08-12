@@ -1,8 +1,8 @@
 class Roxide < Formula
   desc "Manage your git repositories."
   homepage "https://github.com/fioncat/roxide"
-  url "https://github.com/fioncat/roxide/archive/refs/tags/v0.18.2.tar.gz"
-  sha256 "c29120edc3c8356e9cb4f652a17c5e2c6b60ebb249fd38edf3585fdf32ccab65"
+  url "https://github.com/fioncat/roxide/archive/refs/tags/v0.18.3.tar.gz"
+  sha256 "0d4e8f203c0455fd95b78022169441b15d5458b1b35a1a0cf94b2deaf36ecfe4"
   license "MIT"
   head "https://github.com/fioncat/roxide.git", branch: "main"
 
