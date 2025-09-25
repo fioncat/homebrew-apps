@@ -1,8 +1,8 @@
 class Roxide < Formula
   desc "Manage your git repositories."
   homepage "https://github.com/fioncat/roxide"
-  url "https://github.com/fioncat/roxide/releases/download/v0.20.3/roxide-aarch64-apple-darwin.tar.gz"
-  sha256 "581f6c7fc02ab14689f9a272ee00faff0a3ba30e4e55bbd2f27a97519253cb3d"
+  url "https://github.com/fioncat/roxide/releases/download/v0.20.4/roxide-aarch64-apple-darwin.tar.gz"
+  sha256 "d697a1271d8093b871ca6bb1d5e302b3ee8014fef797df0005fc99f3e08549b9"
   license "MIT"
   head "https://github.com/fioncat/roxide.git", branch: "main"
 
